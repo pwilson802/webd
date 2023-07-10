@@ -1,5 +1,5 @@
 package webserver
 
-type ServerConfig struct {
+type Client struct {
 	Port int
 }

@@ -7,7 +7,7 @@ import (
 )
 
 func TestCreateSimpleWebServerConfig(t *testing.T) {
-	config := webserver.ServerConfig{
+	config := webserver.Client{
 		Port: 80,
 	}
 	want := 80
